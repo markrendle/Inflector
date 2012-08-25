@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 namespace Inflector
@@ -131,6 +132,9 @@ namespace Inflector
             return ApplyRules(_singulars, word);
         }
 
+#if NET45 || NETFX_CORE
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+#endif
         private static string ApplyRules(List<Rule> rules, string word)
         {
             string result = word;
@@ -205,6 +209,9 @@ namespace Inflector
             return Ordanize(number, number.ToString());
         }
 
+#if NET45 || NETFX_CORE
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+#endif
         private static string Ordanize(int number, string numberString)
         {
             int nMod100 = number % 100;
