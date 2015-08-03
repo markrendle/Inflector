@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflector", "Inflector\Inflector.csproj", "{D5677360-4354-4BA3-9E23-DB169C22BEAB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflector.Tests", "Inflector.Tests\Inflector.Tests.csproj", "{48D42B49-DAA7-47BB-9DC2-9BF2013C48C0}"
@@ -10,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inflector45", "Inflector45\Inflector45.csproj", "{FD4F6E60-F802-4C3A-BB84-FBE80AB155C0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InflectorRT", "InflectorRT\InflectorRT.csproj", "{8DA0D24A-BD73-411E-90D3-BAD6056C1DF9}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InflectorCore", "InflectorCore\InflectorCore.xproj", "{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,22 @@ Global
 		{8DA0D24A-BD73-411E-90D3-BAD6056C1DF9}.Release|x64.Build.0 = Release|x64
 		{8DA0D24A-BD73-411E-90D3-BAD6056C1DF9}.Release|x86.ActiveCfg = Release|x86
 		{8DA0D24A-BD73-411E-90D3-BAD6056C1DF9}.Release|x86.Build.0 = Release|x86
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|ARM.Build.0 = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|x64.Build.0 = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Debug|x86.Build.0 = Debug|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|ARM.ActiveCfg = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|ARM.Build.0 = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|x64.ActiveCfg = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|x64.Build.0 = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|x86.ActiveCfg = Release|Any CPU
+		{0795EB68-F83C-4065-BCB1-3BF3D521C8DD}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
