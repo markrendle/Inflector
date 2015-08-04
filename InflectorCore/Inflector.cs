@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
+#if NET45 || NETFX_CORE
 using System.Runtime.CompilerServices;
+#endif
 using System.Text.RegularExpressions;
 
 namespace Inflector
 {
     public static class Inflector
     {
-        #region Default Rules
+#region Default Rules
 
         static Inflector()
         {
@@ -73,7 +75,7 @@ namespace Inflector
             AddUncountable("aircraft");
         }
 
-        #endregion
+#endregion
 
         private class Rule
         {

@@ -16,8 +16,6 @@
   },
 
   "frameworks": {
-    "dotnet": { },
-    "dnx451": { },
     "dnxcore50": { }
   }
 }
