@@ -2,6 +2,18 @@
   "locked": false,
   "version": -9996,
   "targets": {
+    "DNX,Version=v4.6.2": {
+      "Microsoft.CSharp/4.0.0-beta-23019": {
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ]
+      },
+      "System.Collections/4.0.10-beta-23019": {},
+      "System.Linq/4.0.0-beta-23019": {},
+      "System.Runtime/4.0.10-beta-23019": {},
+      "System.Text.RegularExpressions/4.0.10-beta-23019": {},
+      "System.Threading/4.0.10-beta-23019": {}
+    },
     "DNXCore,Version=v5.0": {
       "Microsoft.CSharp/4.0.0-beta-23019": {
         "dependencies": {
@@ -604,6 +616,7 @@
       "Microsoft.CSharp >= 4.0.0-beta-23019",
       "System.Text.RegularExpressions >= 4.0.10-beta-23019"
     ],
+    "DNX,Version=v4.6.2": [],
     "DNXCore,Version=v5.0": []
   }
 }
